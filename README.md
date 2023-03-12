@@ -6,7 +6,7 @@ Using `rollup-plugin-import-map` bare imports are mapped to url imports at build
 
 ```javascript
 // Bare import
-import react from "react"
+import React from "react"
 
 // Url import
 import React from "https://esm.sh/react@18.2.0"
