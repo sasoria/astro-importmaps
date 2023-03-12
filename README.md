@@ -1,15 +1,15 @@
 # astro-importmaps
 
-This example shows you how to use importmaps at build time to fetch client side dependencies from (esm.sh)[https://esm.sh/]. The dependencies in this case are react and react-dom, they are imported through url imports.
+This example shows you how to use importmaps at build time to fetch client side dependencies from [esm.sh](https://esm.sh/). The dependencies in this case are react and react-dom, they are imported through url imports.
 
 Using `rollup-plugin-import-map` bare imports are mapped to url imports at build time.
 
-## Bare imports
+### Bare imports
 ```javascript
 import react from "react";
 ```
 
-## Url imports
+### Url imports
 ```javascript
 import React from "https://esm.sh/react@18.2.0"
 ```
