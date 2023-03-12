@@ -4,13 +4,11 @@ This example shows you how to use importmaps at build time to fetch client side 
 
 Using `rollup-plugin-import-map` bare imports are mapped to url imports at build time.
 
-### Bare imports
 ```javascript
-import react from "react";
-```
+// Bare import
+import react from "react"
 
-### Url imports
-```javascript
+// Url import
 import React from "https://esm.sh/react@18.2.0"
 ```
 
